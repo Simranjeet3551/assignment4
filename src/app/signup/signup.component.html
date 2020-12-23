@@ -1,0 +1,26 @@
+<div id="i">
+<h1 id="h">SIGN UP</h1>
+<mat-card class="tp">
+<div class="form-container">
+    <form (submit)="formData(postForm)" #postForm = "ngForm">
+      <mat-form-field>
+        <input matInput placeholder="Name"  required>
+      </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Phone"  required>
+          </mat-form-field>
+          <mat-form-field>
+      <input matInput placeholder="Email"  required>
+    </mat-form-field>
+    
+    <mat-form-field>
+        <input type ="password" matInput placeholder="Password" required>
+      </mat-form-field>  
+     
+    </form> 
+  </div>
+  <div class="bt">
+  <button id="btn" routerLink="/login" routerLinkActive="active">Signin</button>
+  </div>
+</mat-card>
+</div>
