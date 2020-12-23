@@ -36,7 +36,8 @@ export class DataService {
       })
       console.log(check);
       return check;
-      getPostUpdateListener(){
+      getPostUpdateListener()
+      {
   return this.postUpdated.asObservable();
 
 
